@@ -1,1 +1,1 @@
-![img](/Users/joey/IdeaProjects/Java/src/Chapter02/Example08/img.png)
+![img](https://images-a2q.pages.dev/file/cdae46f6d9553d2d06e1a.png)
