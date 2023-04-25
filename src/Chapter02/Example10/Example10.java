@@ -1,4 +1,4 @@
-package Chapter02;
+package Chapter02.Example10;
 import java.util.Scanner;
 /*
  * 从键盘读取一个矩形外边和内边的长度，然后输出一个空心矩形

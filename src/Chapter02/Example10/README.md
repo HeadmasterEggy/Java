@@ -1,0 +1,1 @@
+![](https://images-a2q.pages.dev/file/fb944f369d5efc424aba8.jpg)
