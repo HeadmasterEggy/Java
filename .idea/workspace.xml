@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter02/Example11/Example11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter02/Example11/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,8 +68,16 @@
       <workItem from="1682092401914" duration="10143000" />
       <workItem from="1682306387634" duration="832000" />
       <workItem from="1682387460067" duration="300000" />
-      <workItem from="1682387771058" duration="3120000" />
+      <workItem from="1682387771058" duration="3440000" />
     </task>
+    <task id="LOCAL-00001" summary="add quest12">
+      <created>1682391164292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682391164292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add quest12" />
+    <option name="LAST_COMMIT_MESSAGE" value="add quest12" />
   </component>
 </project>
