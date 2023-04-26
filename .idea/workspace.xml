@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12">
-      <change afterPath="$PROJECT_DIR$/src/Chaoter03/Example01/CircleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chaoter03/Example01/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter04/Example01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter04/Example02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +63,7 @@
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chaoter03.Example01.*" />
+          <option name="PATTERN" value="Chaoter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,6 +145,7 @@
       <workItem from="1682404119560" duration="599000" />
       <workItem from="1682405512363" duration="601000" />
       <workItem from="1682495878740" duration="4879000" />
+      <workItem from="1682503212850" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="add quest12">
       <created>1682391164292</created>
