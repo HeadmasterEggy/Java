@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +143,7 @@
       <workItem from="1682404119560" duration="599000" />
       <workItem from="1682405512363" duration="601000" />
       <workItem from="1682495878740" duration="4879000" />
-      <workItem from="1682503212850" duration="1193000" />
+      <workItem from="1682503212850" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="add quest12">
       <created>1682391164292</created>
