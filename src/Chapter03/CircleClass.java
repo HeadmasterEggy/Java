@@ -1,4 +1,4 @@
-package Chaoter03;
+package Chapter03;
 /*
  * 首先定义一个计算二维坐标系中圆面积的类circleClass，要求类中有一个定义圆心座标,圆上一点座标的构造方法，以及一个通过圆上一点座标与圆心座标计算圆面积的方法area。
  * 然后，通过上述类生成两个圆对象circle1、circle2进行测试：
