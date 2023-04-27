@@ -37,7 +37,7 @@ public class Student {
 }
 
 class Undergraduate extends Student{
-    private String specialty;
+    private final String specialty;
 
     public Undergraduate(String name, int age, String degree, String specialty) {
         super(name, age, degree);
@@ -52,7 +52,7 @@ class Undergraduate extends Student{
 }
 
 class Graduate extends Student{
-    private String direction;
+    private final String direction;
 
     public Graduate(String name, int age, String degree, String direction) {
         super(name, age, degree);
