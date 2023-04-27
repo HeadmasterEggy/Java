@@ -1,15 +1,15 @@
+class outer{
+    int x = 1;
+    static class inner{
+        int y = 2;
+    }
+}
+
+
 public class test {
-    int ModleYear;
-    String ModleName;
-
-    public test(int year, String name){
-        this.ModleName = name;
-        this.ModleYear = year;
-    }
-
     public static void main(String[] args) {
-        test test1 = new test(1991, "Joey");
-        System.out.println(test1.ModleYear + " " + test1.ModleName);
+        outer out = new outer();
+        outer.inner in = new outer.inner();
+        System.out.println(out.x + " " + in.y);
     }
-
 }

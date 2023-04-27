@@ -5,36 +5,40 @@ package Chaoter03;
  * 然后，调用上述方法实现两个复数18+2i、19-13i的相加、相减，并打印出结果。
  */
 public class Complex {
-    private double realPart;
-    private double imagPart;
+    private final double realPart;
+    private final double imagPart;
 
-    public Complex(double realPart, double imagPart) {
+    public Complex (double realPart, double imagPart){
         this.realPart = realPart;
         this.imagPart = imagPart;
     }
 
-    public Complex add(Complex other) {
-        double resultRealPart = this.realPart + other.realPart;
-        double resultImagPart = this.imagPart + other.imagPart;
-        return new Complex(resultRealPart, resultImagPart);
+    public Complex add(Complex other){
+        double addReal = this.realPart + other.realPart;
+        double addImag = this.imagPart + other.imagPart;
+        return new Complex(addReal, addImag);
     }
 
-    public Complex subtract(Complex other) {
-        double resultRealPart = this.realPart - other.realPart;
-        double resultImagPart = this.imagPart - other.imagPart;
-        return new Complex(resultRealPart, resultImagPart);
+    public Complex subtract(Complex other){
+        double subReal = this.realPart - other.realPart;
+        double subImag = this.imagPart - other.imagPart;
+        return new Complex(subReal, subImag);
     }
 
-    public String toString() {
-        return realPart + "+" + imagPart + "i";
+    public String toString(){
+        if(imagPart < 0)
+            return realPart + String.valueOf(imagPart) + "i";
+        else
+            return realPart + "+" + imagPart + "i";
     }
 
     public static void main(String[] args) {
         Complex a = new Complex(18, 2);
         Complex b = new Complex(19, -13);
         Complex sum = a.add(b);
-        Complex diff = a.subtract(b);
-        System.out.println("sum: " + sum); // 输出：sum: 37-11i
-        System.out.println("diff: " + diff); // 输出：diff: -1+15i
+        Complex sub = a.subtract(b);
+        System.out.println("sum: " + sum);
+        System.out.println("subtract: " + sub);
+
     }
 }
