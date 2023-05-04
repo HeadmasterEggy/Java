@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12">
+      <change afterPath="$PROJECT_DIR$/src/Chapter03/computer/mainbroad/VGACard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter03/computer/server/mainbroad/showCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,26 +63,13 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter03.BankAccount" />
+  <component name="RunManager" selected="Application.showCard">
+    <configuration name="Chapter03.ten.school.garden.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter03.ten.school.garden.Test" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter03.Book" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter03.*" />
+          <option name="PATTERN" value="Chapter03.ten.school.garden.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="showCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter03.computer.server.mainbroad.showCard" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter03.computer.server.mainbroad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.showCard" />
+        <item itemvalue="Application.Chapter03.ten.school.garden.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Phone" />
         <item itemvalue="Application.Student" />
-        <item itemvalue="Application.BankAccount" />
-        <item itemvalue="Application.Book" />
+        <item itemvalue="Application.Phone" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +160,9 @@
       <workItem from="1682503212850" duration="1817000" />
       <workItem from="1682557520675" duration="11784000" />
       <workItem from="1682639612282" duration="329000" />
-      <workItem from="1682642164695" duration="10932000" />
+      <workItem from="1682642164695" duration="12933000" />
+      <workItem from="1683127438741" duration="77000" />
+      <workItem from="1683127524513" duration="2075000" />
     </task>
     <task id="LOCAL-00001" summary="add quest12">
       <created>1682391164292</created>
