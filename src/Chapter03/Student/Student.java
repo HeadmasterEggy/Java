@@ -4,7 +4,7 @@ package Chapter03.Student;
  * 由Student类派生出本科生类Undergraduate和研究生类Graduate，本科生类Undergraduate增加成员specialty(专业)，研究生类增加成员direction(研究方向)。
  * 每个类都有show()方法，用于输出数据成员信息。
  */
-public class Student {
+abstract class Student {
     protected String name, degree;
     protected int age;
 
@@ -14,19 +14,17 @@ public class Student {
         this.degree = degree;
     }
 
-    public void show(){
+    public abstract void show();
+
+    protected void shown() {
         System.out.println("姓名：" + name);
         System.out.println("年龄：" + age);
         System.out.println("学位：" + degree);
     }
 
     public static void main(String[] args) {
-        Student stu1 = new Student("Avocado", 19, "student");
         Student stu2 = new Undergraduate("Joey", 19, "undergraduate", "Computer Science");
         Student stu3 = new Graduate("Eggy", 23, "graduate", "Front-end");
-
-        stu1.show();
-        System.out.println();
 
         stu2.show();
         System.out.println();
@@ -46,7 +44,7 @@ class Undergraduate extends Student{
 
     @Override
     public void show(){
-        super.show();
+        shown();
         System.out.println("专业：" + specialty);
     }
 }
@@ -61,7 +59,7 @@ class Graduate extends Student{
 
     @Override
     public void show(){
-        super.show();
+        shown();
         System.out.println("研究方向：" + direction);
     }
 }
