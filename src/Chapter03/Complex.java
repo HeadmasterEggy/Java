@@ -5,24 +5,27 @@ package Chapter03;
  * 然后，调用上述方法实现两个复数18+2i、19-13i的相加、相减，并打印出结果。
  */
 public class Complex {
-    private final double realPart;
-    private final double imagPart;
+    public double realPart;
+    public double imagPart;
+
+    public Complex(){
+        realPart = 0;
+        imagPart = 0;
+    }
 
     public Complex (double realPart, double imagPart){
         this.realPart = realPart;
         this.imagPart = imagPart;
     }
 
-    public Complex add(Complex other){
-        double addReal = this.realPart + other.realPart;
-        double addImag = this.imagPart + other.imagPart;
-        return new Complex(addReal, addImag);
+    void add(Complex c1, Complex c2){
+        realPart = c1.realPart + c2.realPart;
+        imagPart = c1.imagPart + c2.imagPart;
     }
 
-    public Complex subtract(Complex other){
-        double subReal = this.realPart - other.realPart;
-        double subImag = this.imagPart - other.imagPart;
-        return new Complex(subReal, subImag);
+    void subtract(Complex c1, Complex c2){
+        realPart = c1.realPart - c2.realPart;
+        imagPart = c1.imagPart - c2.imagPart;
     }
 
     public String toString(){
@@ -33,12 +36,13 @@ public class Complex {
     }
 
     public static void main(String[] args) {
+        Complex c = new Complex();
         Complex a = new Complex(18, 2);
         Complex b = new Complex(19, -13);
-        Complex sum = a.add(b);
-        Complex sub = a.subtract(b);
-        System.out.println("sum: " + sum);
-        System.out.println("subtract: " + sub);
+        c.add(a, b);
+        System.out.println("sum: " + c);
+        c.subtract(a, b);
+        System.out.println("subtract: " + c);
 
     }
 }
