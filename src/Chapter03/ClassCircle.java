@@ -9,7 +9,7 @@ interface CircleInterface {
     void CircleArea();
 }
 
-class ClassCircle implements CircleInterface{
+public class ClassCircle implements CircleInterface{
     double area, round;
 
     @Override
