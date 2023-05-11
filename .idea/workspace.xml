@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12">
-      <change afterPath="$PROJECT_DIR$/src/Chapter05/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter05/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter05/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExcepTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,10 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,6 +58,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,7 +77,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "shared-indexes",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -184,11 +194,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Chapter03.com.test.Test" />
         <item itemvalue="Application.showCard" />
-        <item itemvalue="Application.Chapter03.ten.school.garden.Test" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Student" />
+        <item itemvalue="Application.Chapter03.ten.school.garden.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +227,9 @@
       <workItem from="1683127438741" duration="77000" />
       <workItem from="1683127524513" duration="13487000" />
       <workItem from="1683186918389" duration="783000" />
-      <workItem from="1683197414025" duration="16030000" />
+      <workItem from="1683197414025" duration="25172000" />
+      <workItem from="1683706008026" duration="3367000" />
+      <workItem from="1683762898851" duration="1512000" />
     </task>
     <task id="LOCAL-00001" summary="add quest12">
       <created>1682391164292</created>
