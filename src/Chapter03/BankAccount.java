@@ -23,19 +23,13 @@ public class BankAccount {
     public void withdraw(double amount){
         balance -= amount;
         System.out.println("取出 " + amount + " 元, 可用余额：");
-        System.out.println("name: " + name);
-        System.out.println("account: " +  account);
-        System.out.println("balance: " + balance);
-        System.out.println();
+        inquiry();
     }
 
     public void deposit(double amount){
         balance += amount;
         System.out.println("存入 " + amount + " 元, 可用余额：");
-        System.out.println("name: " + name);
-        System.out.println("account: " +  account);
-        System.out.println("balance: " + balance);
-        System.out.println();
+        inquiry();
     }
     public static void main(String[] args) {
         BankAccount a = new BankAccount("Joey", 2021016707, 700.00);
