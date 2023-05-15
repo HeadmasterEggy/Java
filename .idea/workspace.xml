@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12">
+      <change afterPath="$PROJECT_DIR$/src/Chapter06/FileMovement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter03/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter03/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +229,7 @@
       <workItem from="1683186918389" duration="783000" />
       <workItem from="1683197414025" duration="25172000" />
       <workItem from="1683706008026" duration="3367000" />
-      <workItem from="1683762898851" duration="2584000" />
+      <workItem from="1683762898851" duration="8257000" />
     </task>
     <task id="LOCAL-00001" summary="add quest12">
       <created>1682391164292</created>
