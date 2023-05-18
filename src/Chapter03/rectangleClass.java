@@ -5,11 +5,7 @@ package Chapter03;
  * 并实例化两个长方形进行测试。Math.abs求绝对值
  */
 public class rectangleClass {
-    private final int x1;
-    private final int x2;
-    private final int y1;
-    private final int y2;
-
+	int x1, y1, x2, y2;
     public rectangleClass(int x1, int y1, int x2, int y2){
         this.x1 = x1;
         this.x2 = x2;
