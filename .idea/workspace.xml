@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12">
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Example01/ColorPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter07/Example01/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter03/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter03/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test4.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Csv.Editor.Settings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -91,57 +93,40 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Chapter03.ten.school.garden.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter03.ten.school.garden.Test" />
+    <configuration name="ColorChooser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter07.Example01.ColorChooser" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter03.ten.school.garden.*" />
+          <option name="PATTERN" value="Chapter07.Example01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter03.Student.Student" />
+    <configuration name="Less11_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter07.Example01.Less11_1" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter03.Student.*" />
+          <option name="PATTERN" value="Chapter07.Example01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Chapter03.Test" />
+    <configuration name="Test_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter07.Example01.Test_4" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter03.Test" />
+          <option name="PATTERN" value="Chapter07.Example01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,19 +158,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ColorChooser" />
+      <item itemvalue="Application.Less11_1" />
+      <item itemvalue="Application.Test_4" />
       <item itemvalue="Application.test" />
-      <item itemvalue="Application.Chapter03.ten.school.garden.Test" />
       <item itemvalue="Application.showCard" />
-      <item itemvalue="Application.Student" />
-      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test_4" />
+        <item itemvalue="Application.ColorChooser" />
+        <item itemvalue="Application.Less11_1" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.showCard" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.Chapter03.ten.school.garden.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +203,12 @@
       <workItem from="1683706008026" duration="3367000" />
       <workItem from="1683762898851" duration="9572000" />
       <workItem from="1684470354945" duration="2375000" />
-      <workItem from="1684562290840" duration="345000" />
+      <workItem from="1684562290840" duration="1128000" />
+      <workItem from="1684802355201" duration="4793000" />
+      <workItem from="1685244690338" duration="28000" />
+      <workItem from="1685244724850" duration="674000" />
+      <workItem from="1685260589587" duration="8261000" />
+      <workItem from="1685577739388" duration="1736000" />
     </task>
     <task id="LOCAL-00001" summary="add quest12">
       <created>1682391164292</created>
