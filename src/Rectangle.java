@@ -1,4 +1,6 @@
 /*
- * 在com.graphic包中定义一个圆柱体类Cylinder，其半径r，高h都为私有属性，有构造方法和求体级方法volume()。
- * 在com.test包中定义一个测试类test，测试一个半径为5.34、高为2的圆柱体体积。半径PI为3.14。
+ * 在biology包中的animal包中有human类,它具有name,height,weight的属性,还具有eat(),sleep()和work()的行为,
+ * 在biology包中的plant包中有flower类,它具有name,color,smell的属性,还具有drink()和blossom()的行为.
+ * 现在在一个school包中的garden包中一个张三的人,他是一个human类的对象,种植的rose是一个flower类对象,编程实现并测试各自的方法.
  */
+

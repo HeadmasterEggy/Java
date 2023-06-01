@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12">
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Example01/ColorPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter07/Example01/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +205,7 @@
       <workItem from="1685244690338" duration="28000" />
       <workItem from="1685244724850" duration="674000" />
       <workItem from="1685260589587" duration="8261000" />
-      <workItem from="1685577739388" duration="1736000" />
+      <workItem from="1685577739388" duration="2758000" />
     </task>
     <task id="LOCAL-00001" summary="add quest12">
       <created>1682391164292</created>
