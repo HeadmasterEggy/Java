@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12">
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter02/Example07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter02/Example07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -36,6 +37,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Chapter05/MapExample.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
   </component>
@@ -157,11 +159,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example04" />
-        <item itemvalue="Application.Test_4" />
-        <item itemvalue="Application.ColorChooser" />
-        <item itemvalue="Application.Less11_1" />
         <item itemvalue="Application.test" />
+        <item itemvalue="Application.Test_4" />
+        <item itemvalue="Application.Less11_1" />
+        <item itemvalue="Application.Example04" />
+        <item itemvalue="Application.ColorChooser" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +201,9 @@
       <workItem from="1685244690338" duration="28000" />
       <workItem from="1685244724850" duration="674000" />
       <workItem from="1685260589587" duration="8261000" />
-      <workItem from="1685577739388" duration="6301000" />
+      <workItem from="1685577739388" duration="8756000" />
+      <workItem from="1685886164620" duration="3830000" />
+      <workItem from="1686101674596" duration="2799000" />
     </task>
     <task id="LOCAL-00001" summary="add quest12">
       <created>1682391164292</created>
