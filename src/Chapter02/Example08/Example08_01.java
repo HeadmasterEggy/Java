@@ -8,12 +8,12 @@ public class Example08_01 {
         for(int i = 1; i <= n; i++){
             int j;
             for(j = 1; j <= n - i; j++) {
-                System.out.print(" ");
+                System.out.print("  ");
             }
-            for(int k = j; k <= n; k++){
-                System.out.print("*");
+            for(; j <= n; j++) {
+                System.out.print("* ");
             }
-            System.out.println(" ");
+            System.out.println();
         }
     }
 }
