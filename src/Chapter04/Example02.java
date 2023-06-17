@@ -18,6 +18,6 @@ public class Example02 {
         for (int i : num) {
             res.append(i);
         }
-        System.out.println(res.toString());
+        System.out.println(res);
     }
 }
