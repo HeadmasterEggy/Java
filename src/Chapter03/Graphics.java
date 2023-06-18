@@ -5,20 +5,20 @@ package Chapter03;
  * 请用该类派生的子类实现输出一个形状为长方形、长为3宽为2和它面积以及输出一个形状为圆形、颜色为红色、半径为4和它面积。
  */
 public abstract class Graphics {
-    protected String name;
+    String name;
 
     public Graphics(String name){
         this.name = name;
     }
 
-    public abstract void parameter();
+    abstract void parameter();
 
-    public abstract void area();
+    abstract void area();
 }
 
 class Rectangle extends Graphics{
-    private final int width;
-    private final int length;
+    int width;
+    int length;
 
     public Rectangle(String name, int length, int width){
         super(name);
@@ -40,8 +40,8 @@ class Rectangle extends Graphics{
 }
 
 class Circle extends Graphics{
-    private final double radius;
-    private final String color;
+    double radius;
+    String color;
 
     public Circle(String name, double radius, String color) {
         super(name);
@@ -69,7 +69,7 @@ class GraphicsTest {
 
         System.out.println();
 
-        Circle c1 = new Circle("圆形", 4, "red");
+        Circle c1 = new Circle("圆形", 4, "红色");
         c1.parameter();
         c1.area();
     }
