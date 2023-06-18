@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a922dd-060f-4690-aaca-ee502ac02821" name="Changes" comment="add quest12">
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter04/Example02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter04/Example02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter03/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter03/Graphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +214,7 @@
       <workItem from="1686552345290" duration="1294000" />
       <workItem from="1686658390589" duration="240000" />
       <workItem from="1686658637457" duration="1697000" />
-      <workItem from="1686721456185" duration="6463000" />
+      <workItem from="1686721456185" duration="9995000" />
     </task>
     <task id="LOCAL-00001" summary="add quest12">
       <created>1682391164292</created>

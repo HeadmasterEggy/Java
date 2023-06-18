@@ -9,7 +9,7 @@ interface Shape{
     double area(double num);
 }
 
-class CirCle implements Shape {
+class Circles implements Shape {
     @Override
     public double area(double r) {
         return Math.PI * r * r;
@@ -25,7 +25,7 @@ class Square implements Shape {
 public class ShapeTest {
     public static void main(String[] args) {
         Shape square = new Square();
-        Shape circle = new CirCle();
+        Shape circle = new Circles();
         double length = square.area(2);
         double round = circle.area(3);
         System.out.println("正方形面积为：" + length);
