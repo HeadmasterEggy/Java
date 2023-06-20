@@ -19,17 +19,9 @@ class phone {
         System.out.println();
     }
 
-    void dail() {
-        System.out.println("正在拨打电话....");
-    }
-
-    void answer() {
-        System.out.println("正在接听电话....");
-    }
 }
 
 class mobilePhone extends phone {
-    char[] number = new char[11];
 
     void dail() {
         System.out.println("正在通过移动网络拨打电话....");
@@ -51,7 +43,6 @@ class fixPhone extends phone {
 }
 
 class cordlessPhone extends fixPhone {
-    char[] number = new char[4];
 
     void move() {
         System.out.println("正在移动通话....");
