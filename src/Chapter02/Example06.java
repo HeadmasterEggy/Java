@@ -7,14 +7,14 @@ package Chapter02;
  */
 public class Example06 {
     public static void main(String[] args) {
-        int tmp = 0;
         for (int n = 3; n <= 10000; n++) {
-            tmp = n;
+            int tmp = n;
             while (tmp != 1) {
-                if (tmp % 2 == 1)
+                if (tmp % 2 == 1) {
                     tmp = tmp * 3 + 1;
-                else
-                    tmp = tmp / 2;
+                } else {
+                    tmp /= 2;
+                }
             }
             System.out.println(n + "符合角谷猜想！");
         }

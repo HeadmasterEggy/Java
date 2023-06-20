@@ -5,10 +5,9 @@ package Chapter02.Example11;
 public class Example11 {
     public static void main(String[] args) {
         int N = 10;
-        int [][]a = new int[N + 1][];
+        int [][]a = new int[N + 1][N + 1];
 
         for(int i = 0; i < N; i++){
-            a[i] = new int[i + 1];
             for(int j = 0; j <= i; j++){
                 if(j == 0 || j == i){
                     a[i][j] = 1;
