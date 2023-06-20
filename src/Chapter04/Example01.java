@@ -7,18 +7,18 @@ import java.util.Scanner;
  */
 public class Example01 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        String subStr = input.nextLine();
-        String str = input.nextLine();
+        String str;
+        String op;
         int sum = 0;
-        int count = 0;
-        int index = 0;
-        int n = 0;
-        while ((index = str.indexOf(subStr, index)) != -1) {
-            count++;
-            index += subStr.length();
-            System.out.println("第" + ++n + "次出现的位置：" + index);
+        Scanner cin = new Scanner(System.in);
+        str = cin.nextLine();
+        op = cin.nextLine();
+        for(int i = 0; i < str.length() - op.length(); i++) {
+            if(str.startsWith(op, i)){
+                sum++;
+                System.out.println("出现位置：" + i);
+            }
         }
-        System.out.println("字符串出现" + n + "次");
+        System.out.println("出现次数：" + sum);
     }
 }
