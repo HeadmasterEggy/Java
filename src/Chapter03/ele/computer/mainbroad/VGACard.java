@@ -6,6 +6,4 @@ public class VGACard {
     public void show(){
         System.out.println("VGA checked success");
     }
-
-
 }

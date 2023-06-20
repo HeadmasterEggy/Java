@@ -22,7 +22,6 @@ class phone {
 }
 
 class mobilePhone extends phone {
-
     void dail() {
         System.out.println("正在通过移动网络拨打电话....");
     }
@@ -43,7 +42,6 @@ class fixPhone extends phone {
 }
 
 class cordlessPhone extends fixPhone {
-
     void move() {
         System.out.println("正在移动通话....");
     }
